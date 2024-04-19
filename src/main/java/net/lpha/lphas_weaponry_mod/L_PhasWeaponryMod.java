@@ -2,6 +2,7 @@ package net.lpha.lphas_weaponry_mod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.lpha.lphas_weaponry_mod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +13,6 @@ public class L_PhasWeaponryMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-
+		ModItems.registerModItems();
 	}
 }
