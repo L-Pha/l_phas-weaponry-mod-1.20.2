@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lphas_weaponry_mod",
+	"version": "${version}",
+	"name": "L_Pha's Weaponry Mod",
+	"description": "A weaponary mod made by L_Pha_",
+	"authors": [
+		"L_Pha_"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/lphas_weaponry_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lpha.lphas_weaponry_mod.L_PhasWeaponryMod"
+		],
+		"client": [
+			"net.lpha.lphas_weaponry_mod.L_PhasWeaponryModClient"
+		],
+		"fabric-datagen": [
+			"net.lpha.lphas_weaponry_mod.L_PhasWeaponryModDataGenerator"
+		]
+	},
+	"mixins": [
+		"lphas_weaponry_mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
