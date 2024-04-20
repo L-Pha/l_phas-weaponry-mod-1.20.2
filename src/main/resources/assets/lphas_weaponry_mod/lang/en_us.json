@@ -1,4 +1,6 @@
 {
   "item.lphas_weaponry_mod.iron_blob": "Iron Blob",
-  "item.lphas_weaponry_mod.iron_stick": "Iron Stick"
+  "item.lphas_weaponry_mod.iron_stick": "Iron Stick",
+
+  "itemgroup.weapon_ingredients": "Weapon Ingredients"
 }
