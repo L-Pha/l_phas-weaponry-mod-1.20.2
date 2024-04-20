@@ -19,7 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.GOLDEN_BLOB);
                         entries.add(ModItems.GOLDEN_STICK);
                         entries.add(ModItems.COPPER_BLOB);
-                        entries.add(ModItems.COPPER_BLOB);
+                        entries.add(ModItems.COPPER_STICK);
 
                     }).build());
 
