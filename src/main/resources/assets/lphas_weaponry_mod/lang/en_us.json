@@ -8,5 +8,15 @@
   "item.lphas_weaponry_mod.copper_blob": "Copper Blob",
   "item.lphas_weaponry_mod.copper_stick": "Copper Stick",
 
-  "itemgroup.weapon_ingredients": "Weapon Ingredients"
+  "item.lphas_weaponry_mod.reinforced_iron_ingot": "Reinforced Iron Ingot",
+  "item.lphas_weaponry_mod.reinforced_iron_blob": "Reinforced Iron Blob",
+  "block.lphas_weaponry_mod.reinforced_iron_block": "Reinforced Iron Block",
+
+  "item.lphas_weaponry_mod.steel_ingot": "Steel Ingot",
+  "item.lphas_weaponry_mod.steel_blob": "Steel Blob",
+  "block.lphas_weaponry_mod.steel_block": "Steel Block",
+
+
+  "itemgroup.lphas_weaponry_ingredients": "L_Pha's Weaponry Ingredients",
+  "itemgroup.lphas_weaponry_blocks": "L_Pha's Weaponry Blocks"
 }

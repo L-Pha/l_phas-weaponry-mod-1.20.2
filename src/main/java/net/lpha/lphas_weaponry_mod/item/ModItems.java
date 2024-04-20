@@ -21,6 +21,10 @@ public class ModItems {
 
     public static final Item COPPER_BLOB = registerItem("copper_blob", new Item(new FabricItemSettings()));
     public static final Item COPPER_STICK = registerItem("copper_stick", new Item(new FabricItemSettings()));
+    public static final Item REINFORCED_IRON_BLOB = registerItem("reinforced_iron_ingot", new Item(new FabricItemSettings()));
+    public static final Item REINFORCED_IRON_INGOT = registerItem("reinforced_iron_blob", new Item(new FabricItemSettings()));
+    public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()));
+    public static final Item STEEL_BLOB = registerItem("steel_blob", new Item(new FabricItemSettings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
@@ -31,6 +35,10 @@ public class ModItems {
         entries.add(GOLDEN_STICK);
         entries.add(COPPER_BLOB);
         entries.add(COPPER_STICK);
+        entries.add(REINFORCED_IRON_INGOT);
+        entries.add(REINFORCED_IRON_BLOB);
+        entries.add(STEEL_INGOT);
+        entries.add(STEEL_BLOB);
 
     }
 
@@ -39,7 +47,7 @@ public class ModItems {
     }
 
     public static void registerModItems(){
-        L_PhasWeaponryMod.LOGGER.info("Registering Mod Items for " + L_PhasWeaponryMod.MOD_ID);
+        L_PhasWeaponryMod.LOGGER.info("Registering ModItems for " + L_PhasWeaponryMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
