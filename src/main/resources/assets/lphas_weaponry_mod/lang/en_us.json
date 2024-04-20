@@ -2,5 +2,11 @@
   "item.lphas_weaponry_mod.iron_blob": "Iron Blob",
   "item.lphas_weaponry_mod.iron_stick": "Iron Stick",
 
+  "item.lphas_weaponry_mod.golden_blob": "Golden Blob",
+  "item.lphas_weaponry_mod.golden_stick": "Golden Stick",
+
+  "item.lphas_weaponry_mod.copper_blob": "Copper Blob",
+  "item.lphas_weaponry_mod.copper_stick": "Copper Stick",
+
   "itemgroup.weapon_ingredients": "Weapon Ingredients"
 }
