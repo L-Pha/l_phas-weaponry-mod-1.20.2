@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lphas_weaponry_mod:iron_blob"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_nugget",
+    "count": 4
+  }
+}

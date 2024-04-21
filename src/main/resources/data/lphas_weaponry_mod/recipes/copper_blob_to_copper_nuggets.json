@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lphas_weaponry_mod:copper_blob"
+    }
+  ],
+  "result": {
+    "item": "lphas_weaponry_mod:copper_nugget",
+    "count": 4
+  }
+}

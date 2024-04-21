@@ -20,11 +20,16 @@ public class ModItemGroups {
                         entries.add(ModItems.GOLDEN_BLOB);
                         entries.add(ModItems.GOLDEN_STICK);
                         entries.add(ModItems.COPPER_BLOB);
+                        entries.add(ModItems.COPPER_NUGGET);
                         entries.add(ModItems.COPPER_STICK);
                         entries.add(ModItems.REINFORCED_IRON_INGOT);
                         entries.add(ModItems.REINFORCED_IRON_BLOB);
+                        entries.add(ModItems.REINFORCED_IRON_NUGGET);
+                        entries.add(ModItems.REINFORCED_IRON_STICK);
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModItems.STEEL_BLOB);
+                        entries.add(ModItems.STEEL_NUGGET);
+                        entries.add(ModItems.STEEL_STICK);
 
                     }).build());
 

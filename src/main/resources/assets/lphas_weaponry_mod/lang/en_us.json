@@ -6,14 +6,21 @@
   "item.lphas_weaponry_mod.golden_stick": "Golden Stick",
 
   "item.lphas_weaponry_mod.copper_blob": "Copper Blob",
+  "item.lphas_weaponry_mod.copper_nugget": "Copper Nugget",
   "item.lphas_weaponry_mod.copper_stick": "Copper Stick",
 
   "item.lphas_weaponry_mod.reinforced_iron_ingot": "Reinforced Iron Ingot",
   "item.lphas_weaponry_mod.reinforced_iron_blob": "Reinforced Iron Blob",
+  "item.lphas_weaponry_mod.reinforced_iron_nugget": "Reinforced Iron Nugget",
+  "item.lphas_weaponry_mod.reinforced_iron_stick": "Reinforced Iron Stick",
+
   "block.lphas_weaponry_mod.reinforced_iron_block": "Reinforced Iron Block",
 
   "item.lphas_weaponry_mod.steel_ingot": "Steel Ingot",
   "item.lphas_weaponry_mod.steel_blob": "Steel Blob",
+  "item.lphas_weaponry_mod.steel_nugget": "Steel Nugget",
+  "item.lphas_weaponry_mod.steel_stick": "Steel Stick",
+
   "block.lphas_weaponry_mod.steel_block": "Steel Block",
 
 
