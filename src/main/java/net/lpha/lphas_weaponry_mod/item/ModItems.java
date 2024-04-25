@@ -30,6 +30,7 @@ public class ModItems {
     public static final Item STEEL_BLOB = registerItem("steel_blob", new Item(new FabricItemSettings()));
     public static final Item STEEL_NUGGET = registerItem("steel_nugget", new Item(new FabricItemSettings()));
     public static final Item STEEL_STICK = registerItem("steel_stick", new Item(new FabricItemSettings()));
+    public static final Item COKE = registerItem("coke", new Item(new FabricItemSettings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
@@ -49,6 +50,7 @@ public class ModItems {
         entries.add(STEEL_BLOB);
         entries.add(STEEL_NUGGET);
         entries.add(STEEL_STICK);
+        entries.add(COKE);
 
     }
 

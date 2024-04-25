@@ -2,6 +2,7 @@ package net.lpha.lphas_weaponry_mod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.lpha.lphas_weaponry_mod.block.ModBlocks;
 import net.lpha.lphas_weaponry_mod.item.ModItemGroups;
 import net.lpha.lphas_weaponry_mod.item.ModItems;
@@ -17,6 +18,8 @@ public class L_PhasWeaponryMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.COKE, 3000);
 
 	}
 }
