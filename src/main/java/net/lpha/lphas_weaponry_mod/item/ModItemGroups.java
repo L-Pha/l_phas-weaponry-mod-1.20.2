@@ -17,8 +17,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.IRON_BLOB)).entries((displayContext, entries) -> {
                         entries.add(ModItems.IRON_BLOB);
                         entries.add(ModItems.IRON_STICK);
-                        entries.add(ModItems.GOLDEN_BLOB);
-                        entries.add(ModItems.GOLDEN_STICK);
+                        entries.add(ModItems.GOLD_BLOB);
+                        entries.add(ModItems.GOLD_STICK);
                         entries.add(ModItems.COPPER_BLOB);
                         entries.add(ModItems.COPPER_NUGGET);
                         entries.add(ModItems.COPPER_STICK);
@@ -30,6 +30,7 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_BLOB);
                         entries.add(ModItems.STEEL_NUGGET);
                         entries.add(ModItems.STEEL_STICK);
+                        entries.add(ModItems.COKE);
 
                     }).build());
 

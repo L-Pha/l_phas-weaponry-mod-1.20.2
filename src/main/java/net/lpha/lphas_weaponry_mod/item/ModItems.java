@@ -16,8 +16,8 @@ public class ModItems {
     public static final Item IRON_BLOB = registerItem("iron_blob", new Item(new FabricItemSettings()));
     public static final Item IRON_STICK = registerItem("iron_stick", new Item(new FabricItemSettings()));
 
-    public static final Item GOLDEN_BLOB = registerItem("golden_blob", new Item(new FabricItemSettings()));
-    public static final Item GOLDEN_STICK = registerItem("golden_stick", new Item(new FabricItemSettings()));
+    public static final Item GOLD_BLOB = registerItem("gold_blob", new Item(new FabricItemSettings()));
+    public static final Item GOLD_STICK = registerItem("gold_stick", new Item(new FabricItemSettings()));
 
     public static final Item COPPER_BLOB = registerItem("copper_blob", new Item(new FabricItemSettings()));
     public static final Item COPPER_NUGGET = registerItem("copper_nugget", new Item(new FabricItemSettings()));
@@ -37,8 +37,8 @@ public class ModItems {
 
         entries.add(IRON_BLOB);
         entries.add(IRON_STICK);
-        entries.add(GOLDEN_BLOB);
-        entries.add(GOLDEN_STICK);
+        entries.add(GOLD_BLOB);
+        entries.add(GOLD_STICK);
         entries.add(COPPER_BLOB);
         entries.add(COPPER_NUGGET);
         entries.add(COPPER_STICK);
