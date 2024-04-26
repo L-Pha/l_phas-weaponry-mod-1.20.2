@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "lphas_weaponry_mod:block/morphing_gem_ore"
-  }
-}
