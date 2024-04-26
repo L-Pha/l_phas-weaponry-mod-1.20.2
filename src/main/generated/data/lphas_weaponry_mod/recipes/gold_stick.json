@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "N",
+    "N"
+  ],
+  "result": {
+    "item": "lphas_weaponry_mod:gold_stick"
+  },
+  "show_notification": true
+}

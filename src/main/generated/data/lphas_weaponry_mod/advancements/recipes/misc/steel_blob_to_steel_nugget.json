@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_steel_blob": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lphas_weaponry_mod:steel_blob"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:steel_blob_to_steel_nugget"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_steel_blob"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:steel_blob_to_steel_nugget"
+    ]
+  },
+  "sends_telemetry_event": false
+}

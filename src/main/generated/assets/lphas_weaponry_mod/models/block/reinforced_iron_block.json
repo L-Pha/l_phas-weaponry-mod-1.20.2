@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lphas_weaponry_mod:block/reinforced_iron_block"
+  }
+}

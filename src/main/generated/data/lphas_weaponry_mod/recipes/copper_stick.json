@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "lphas_weaponry_mod:copper_nugget"
+    }
+  },
+  "pattern": [
+    "N",
+    "N"
+  ],
+  "result": {
+    "item": "lphas_weaponry_mod:copper_stick"
+  },
+  "show_notification": true
+}
