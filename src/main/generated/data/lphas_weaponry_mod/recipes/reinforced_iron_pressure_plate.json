@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "lphas_weaponry_mod:reinforced_iron_ingot"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "lphas_weaponry_mod:reinforced_iron_pressure_plate"
+  },
+  "show_notification": true
+}

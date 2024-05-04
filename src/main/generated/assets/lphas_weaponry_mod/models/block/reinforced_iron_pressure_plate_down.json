@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "lphas_weaponry_mod:block/reinforced_iron_block"
+  }
+}

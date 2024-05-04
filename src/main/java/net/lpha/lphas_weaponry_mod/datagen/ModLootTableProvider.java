@@ -15,6 +15,19 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.STEEL_BLOCK);
         addDrop(ModBlocks.REINFORCED_IRON_BLOCK);
+        addDrop(ModBlocks.REINFORCED_IRON_BUTTON);
+
+        addDrop(ModBlocks.REINFORCED_IRON_DOOR, doorDrops(ModBlocks.REINFORCED_IRON_DOOR)) ;
+        addDrop(ModBlocks.REINFORCED_IRON_TRAPDOOR);
+
+        addDrop(ModBlocks.REINFORCED_IRON_PRESSURE_PLATE);
+        addDrop(ModBlocks.STEEL_BUTTON);
+
+        addDrop(ModBlocks.STEEL_DOOR, doorDrops(ModBlocks.STEEL_DOOR));
+        addDrop(ModBlocks.STEEL_TRAPDOOR);
+
+        addDrop(ModBlocks.STEEL_PRESSURE_PLATE);
+
 
 //       addDrop(ModBlocks.MORPHING_GEM_ORE, oreDrops(ModBlocks.MORPHING_GEM_ORE, ModItems.MORPHING_GEM));
 

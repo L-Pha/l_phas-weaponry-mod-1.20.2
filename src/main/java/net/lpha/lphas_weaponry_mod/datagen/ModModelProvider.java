@@ -16,9 +16,21 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.STEEL_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.REINFORCED_IRON_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool steelPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.STEEL_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool reinforcedIronPool =blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.REINFORCED_IRON_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MORPHING_GEM_ORE);
+
+        steelPool.button(ModBlocks.STEEL_BUTTON);
+        steelPool.pressurePlate(ModBlocks.STEEL_PRESSURE_PLATE);
+        reinforcedIronPool.button(ModBlocks.REINFORCED_IRON_BUTTON);
+        reinforcedIronPool.pressurePlate(ModBlocks.REINFORCED_IRON_PRESSURE_PLATE);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.STEEL_DOOR);
+        blockStateModelGenerator.registerDoor(ModBlocks.REINFORCED_IRON_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.STEEL_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.REINFORCED_IRON_TRAPDOOR);
+
+
 
     }
 

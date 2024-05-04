@@ -12,6 +12,7 @@ import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -134,6 +135,43 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('N', ModItems.REINFORCED_IRON_NUGGET)
                 .criterion(hasItem(ModItems.REINFORCED_IRON_NUGGET), conditionsFromItem(ModItems.REINFORCED_IRON_NUGGET))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.REINFORCED_IRON_STICK)));
+
+//        DOOR recipes
+
+        createDoorRecipe(ModBlocks.REINFORCED_IRON_DOOR, Ingredient.ofItems(ModItems.REINFORCED_IRON_INGOT))
+                .criterion(hasItem(ModItems.REINFORCED_IRON_INGOT), conditionsFromItem(ModItems.REINFORCED_IRON_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.REINFORCED_IRON_DOOR)));
+
+        createDoorRecipe(ModBlocks.STEEL_DOOR, Ingredient.ofItems(ModItems.STEEL_INGOT))
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.STEEL_DOOR)));
+
+//        TRAPDOOR recipes
+
+        createTrapdoorRecipe(ModBlocks.REINFORCED_IRON_TRAPDOOR, Ingredient.ofItems(ModItems.REINFORCED_IRON_INGOT))
+                .criterion(hasItem(ModItems.REINFORCED_IRON_INGOT), conditionsFromItem(ModItems.REINFORCED_IRON_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.REINFORCED_IRON_TRAPDOOR)));
+
+        createTrapdoorRecipe(ModBlocks.STEEL_TRAPDOOR, Ingredient.ofItems(ModItems.STEEL_INGOT))
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.STEEL_TRAPDOOR)));
+
+//        BUTTON recipes
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.REINFORCED_IRON_BUTTON, 1)
+                .input(ModItems.REINFORCED_IRON_INGOT)
+                .criterion(RecipeProvider.hasItem(ModItems.REINFORCED_IRON_INGOT), conditionsFromItem(ModItems.REINFORCED_IRON_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.REINFORCED_IRON_BUTTON)));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.STEEL_BUTTON, 1)
+                .input(ModItems.STEEL_INGOT)
+                .criterion(RecipeProvider.hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.STEEL_BUTTON)));
+
+//        PRESSURE_PLATE recipes
+
+        offerPressurePlateRecipe(exporter, ModBlocks.REINFORCED_IRON_PRESSURE_PLATE, ModItems.REINFORCED_IRON_INGOT );
+        offerPressurePlateRecipe(exporter, ModBlocks.STEEL_PRESSURE_PLATE, ModItems.STEEL_INGOT );
 
 
 

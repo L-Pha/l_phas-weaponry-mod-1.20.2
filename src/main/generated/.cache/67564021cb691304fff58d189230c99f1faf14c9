@@ -1,2 +1,9 @@
-// 1.20.2	2024-04-26T20:32:20.6651122	L_Pha's Weaponry Mod/Tags for minecraft:block
-2d33821d3dcd85b5003d724237eab7c88c07429c data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.2	2024-04-26T22:56:55.7955164	L_Pha's Weaponry Mod/Tags for minecraft:block
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json
+12e5c5df4f59bfaf92100f612f5f8fcf90b72751 data\minecraft\tags\blocks\buttons.json
+bcb380d7203f0098dc6e963391f18d3a4cec4183 data\minecraft\tags\blocks\trapdoors.json
+7ed5d0f663ef5bb1dfc5ea6a9455676cd23bdeed data\minecraft\tags\blocks\pressure_plates.json
+f2aeba0aa8f8f3714afe27bfc44a7014c9636da1 data\minecraft\tags\blocks\needs_iron_tool.json
+8b3a2be76383f8815403369831b6d06dd7958889 data\minecraft\tags\blocks\doors.json
+3243884b458352a8304907ec6a6f11d167da5792 data\minecraft\tags\blocks\mineable\pickaxe.json
+6e27e4a868e351f9c3354227f21b43a4ca2bf0cc data\minecraft\tags\blocks\needs_diamond_tool.json

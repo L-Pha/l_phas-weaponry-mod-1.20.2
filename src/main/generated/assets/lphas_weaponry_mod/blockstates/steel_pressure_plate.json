@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "lphas_weaponry_mod:block/steel_pressure_plate"
+    },
+    "powered=true": {
+      "model": "lphas_weaponry_mod:block/steel_pressure_plate_down"
+    }
+  }
+}

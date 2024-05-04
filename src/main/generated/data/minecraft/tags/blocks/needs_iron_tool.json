@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "lphas_weaponry_mod:steel_block",
+    "lphas_weaponry_mod:reinforced_iron_button",
+    "lphas_weaponry_mod:reinforced_iron_door",
+    "lphas_weaponry_mod:reinforced_iron_trapdoor",
+    "lphas_weaponry_mod:reinforced_iron_pressure_plate",
+    "lphas_weaponry_mod:steel_button",
+    "lphas_weaponry_mod:steel_door",
+    "lphas_weaponry_mod:steel_trapdoor",
+    "lphas_weaponry_mod:steel_pressure_plate"
+  ]
+}

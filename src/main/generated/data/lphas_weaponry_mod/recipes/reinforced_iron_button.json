@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "lphas_weaponry_mod:reinforced_iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "lphas_weaponry_mod:reinforced_iron_button"
+  }
+}

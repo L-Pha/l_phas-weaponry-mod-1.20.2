@@ -3,7 +3,7 @@
   "item.lphas_weaponry_mod.iron_stick": "Iron Stick",
 
   "item.lphas_weaponry_mod.gold_blob": "Gold Blob",
-  "item.lphas_weaponry_mod.gold_stick": "GoldStick",
+  "item.lphas_weaponry_mod.gold_stick": "Gold Stick",
 
   "item.lphas_weaponry_mod.copper_blob": "Copper Blob",
   "item.lphas_weaponry_mod.copper_nugget": "Copper Nugget",
@@ -15,6 +15,10 @@
   "item.lphas_weaponry_mod.reinforced_iron_stick": "Reinforced Iron Stick",
 
   "block.lphas_weaponry_mod.reinforced_iron_block": "Reinforced Iron Block",
+  "block.lphas_weaponry_mod.reinforced_iron_door": "Reinforced Iron Door",
+  "block.lphas_weaponry_mod.reinforced_iron_trapdoor": "Reinforced Iron Trapdoor",
+  "block.lphas_weaponry_mod.reinforced_iron_button": "Reinforced Iron Button",
+  "block.lphas_weaponry_mod.reinforced_iron_pressure_plate": "Reinforced Iron Pressure Plate",
 
   "item.lphas_weaponry_mod.steel_ingot": "Steel Ingot",
   "item.lphas_weaponry_mod.steel_blob": "Steel Blob",
@@ -23,6 +27,10 @@
 
 
   "block.lphas_weaponry_mod.steel_block": "Steel Block",
+  "block.lphas_weaponry_mod.steel_door": "Steel Door",
+  "block.lphas_weaponry_mod.steel_trapdoor": "Steel Trapdoor",
+  "block.lphas_weaponry_mod.steel_button": "Steel Button",
+  "block.lphas_weaponry_mod.steel_pressure_plate": "Steel Pressure Plate",
 
   "block.lphas_weaponry_mod.morphing_gem_ore": "Morphing Gem Ore",
 

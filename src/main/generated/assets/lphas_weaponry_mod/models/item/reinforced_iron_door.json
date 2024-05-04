@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "lphas_weaponry_mod:item/reinforced_iron_door"
+  }
+}

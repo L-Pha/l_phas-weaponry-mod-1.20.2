@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "lphas_weaponry_mod:block/steel_door_bottom",
+    "top": "lphas_weaponry_mod:block/steel_door_top"
+  }
+}

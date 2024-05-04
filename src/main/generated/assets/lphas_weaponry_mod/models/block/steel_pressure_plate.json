@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "lphas_weaponry_mod:block/steel_block"
+  }
+}

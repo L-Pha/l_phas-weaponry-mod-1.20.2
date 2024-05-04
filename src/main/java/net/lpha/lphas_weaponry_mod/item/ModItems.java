@@ -33,27 +33,6 @@ public class ModItems {
     public static final Item COKE = registerItem("coke", new Item(new FabricItemSettings()));
 
 
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
-
-        entries.add(IRON_BLOB);
-        entries.add(IRON_STICK);
-        entries.add(GOLD_BLOB);
-        entries.add(GOLD_STICK);
-        entries.add(COPPER_BLOB);
-        entries.add(COPPER_NUGGET);
-        entries.add(COPPER_STICK);
-        entries.add(REINFORCED_IRON_INGOT);
-        entries.add(REINFORCED_IRON_BLOB);
-        entries.add(REINFORCED_IRON_NUGGET);
-        entries.add(REINFORCED_IRON_STICK);
-        entries.add(STEEL_INGOT);
-        entries.add(STEEL_BLOB);
-        entries.add(STEEL_NUGGET);
-        entries.add(STEEL_STICK);
-        entries.add(COKE);
-
-    }
-
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(L_PhasWeaponryMod.MOD_ID, name), item);
     }
@@ -61,7 +40,7 @@ public class ModItems {
     public static void registerModItems(){
         L_PhasWeaponryMod.LOGGER.info("Registering ModItems for " + L_PhasWeaponryMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+
     }
 
 

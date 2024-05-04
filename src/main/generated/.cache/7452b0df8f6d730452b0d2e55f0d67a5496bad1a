@@ -1,3 +1,11 @@
-// 1.20.2	2024-04-26T20:32:20.6311094	L_Pha's Weaponry Mod/Block Loot Tables
+// 1.20.2	2024-04-26T22:56:55.7657755	L_Pha's Weaponry Mod/Block Loot Tables
+67699737cf9acab8c4422837b83e99319a05132c data\lphas_weaponry_mod\loot_tables\blocks\steel_trapdoor.json
 e05a3427dd0b2051ed22c564d619782bef22135b data\lphas_weaponry_mod\loot_tables\blocks\reinforced_iron_block.json
+e5a3eb45e5ced7f2d2b49b3e7098896b2c0d81fb data\lphas_weaponry_mod\loot_tables\blocks\reinforced_iron_button.json
+6dce261cb6edbd31333b9adeb3ee0bd379d81c19 data\lphas_weaponry_mod\loot_tables\blocks\reinforced_iron_door.json
+633ef4884fef29e140c0965fdd2ab657cbb48fa6 data\lphas_weaponry_mod\loot_tables\blocks\reinforced_iron_pressure_plate.json
+6ec8bdda63607ba2df45c1ce6272582bbc5f5bfa data\lphas_weaponry_mod\loot_tables\blocks\steel_pressure_plate.json
+6963ea263780043e06e043e80fedb2edfc2a2f4f data\lphas_weaponry_mod\loot_tables\blocks\steel_door.json
+efd71527ce2be4ecbbb7fe7ba790ab0496888c76 data\lphas_weaponry_mod\loot_tables\blocks\reinforced_iron_trapdoor.json
 f87cf112edb9e073097214cd0cbd78508825e244 data\lphas_weaponry_mod\loot_tables\blocks\steel_block.json
+45403dc034c4457b3aed1c4c92b8328aa6ae2d24 data\lphas_weaponry_mod\loot_tables\blocks\steel_button.json
